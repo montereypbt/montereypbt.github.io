@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Monterey Peninsula Buddhist Temple</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <link rel="icon" href="favicon.png">
+  <style>
+    .fakeimg {
+      height: 200px;
+      background: #aaa;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="jumbotron text-center" style="margin-bottom:0">
+    <h1>Monterey Peninsula Buddhist Temple</h1>
+    <p>Buddhist Churches of America</p> 
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-4">
+        <h2>Donate</h2>
+        
+        <p>Make a one time donation to the Temple using a credit card via PayPal. A PayPal account is only necessary to setup a recurring donation.</p>
+
+        <div id="donate-button-container">
+          <div id="donate-button"></div>
+          <script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
+          <script>
+            PayPal.Donation.Button({
+              env:'production',
+              hosted_button_id:'D74EESMKSB2YA',
+              image: {
+                src:'https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif',
+                alt:'Donate with PayPal button',
+                title:'PayPal - The safer, easier way to pay online!',
+              }
+            }).render('#donate-button');
+          </script>
+        </div>
+        
+        <hr width="90%">
+        <h2>Contact</h2>
+        <h5>Phone number: +1 (831) 394-0119</h5>
+        <h5>Email: montereydec@gmail.com</h5>
+        <h5>Address:</h5>
+        1155 Noche Buena Street <br/>
+        Seaside, CA 93955<br/>
+        
+        <hr width="90%">
+        <h2>Social</h2>
+        <ul class="nav nav-pills nav-stacked">
+          <li class="nav-item">
+            <a class"nav-link" data-toggle="pill" href="https://www.facebook.com/Monterey-Peninsula-Buddhist-Temple-127808417285312/" target="_blank" rel="noopener noreferrer">Facebook</a>
+          </li>
+          <li class="nav-item">            
+            <a class"nav-link" data-toggle="pill" href="https://www.instagram.com/montereybuddhisttemple/" target="_blank" rel="noopener noreferrer">Instagram</a>
+          </li>
+        </ul>
+        <p>Note that these links require a login to the service.</p>
+        <hr class="hidden-sm hidden-md hidden-lg">
+      </div>
+      <div class="col-sm-8">
+        <h2>News</h2>
+        
+        <!--- begin enter changes -->
+        <p>There will be a reception after service on November 10th to meet Reverend Mukojima and family.</P> 
+        
+        <p>Thank you to all who participated at Obon, to all those who helped, volunteered, or attended. </p>
+        <!-- end enter changes -->
+        
+        <hr width="90%">
+        <h2>Services</h2>
+        <p>Service Schedule - October 2024<br/>
+          October 6   10:00 AM<br/>
+          October 13  10:00 AM<br/>
+          October 20  10:00 AM<br/>
+          October 27  no service<br/>
+        </p>
+        <p>Service Schedule - November 2024<br/>
+          November 3   10:00 AM<br>
+          November 10  10:00 AM<br>
+          November 17  10:00 AM<br>
+          November 24  no service<br>
+        </p>
+        <p>Services are also sometimes available <a href="https://www.youtube.com/channel/UCw6UC6tdbDLulAzset8f1ag">here</a> via live stream on YouTube at the same time as in-person services. Here is a <a href="docs/service_book.pdf">Shin Buddhist Service Book</a> that you can use to follow along with the services.
+        <hr width="90%">
+        <h2>About</h2>
+        <img src="img/sangha.jpg" class="img-responsive" alt="Temple Sangha" />
+        <p>The Monterey Peninsula Buddhist Temple is located in Seaside, California. It is a member of the <a href="https://www.buddhistchurchesofamerica.org">Buddhist Churches of America</a>, headquartered in San Francisco, California. The temple belongs to <a href="https://www.hongwanji.or.jp/english/">Jodo Shinshu Hongwanji-ha</a> school of Buddhism. The mother temple, Ryukoku-zan Hongwanji, is located in Kyoto, Japan.</p>
+        <p>The Monterey Peninsula Buddhist Temple is a <a href="https://thesafezoneproject.com">Safe Zone</a>.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="jumbotron text-center" style="margin-bottom:0">
+    <p>Copyright 2024 Monterey Peninsula Buddhist Temple</p>
+  </div>
+
+</body>
+</html>
+
